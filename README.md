@@ -96,14 +96,42 @@ truffle migrate
 ![Migration Output Part 2](/Images/Migrate2.png "Migration Output Part 2")
 
 #### D- Testing The Smart Contract Using Solidity
+So we create a file named [TestAdoption.sol](https://github.com/safa-abidi/smart-contracts-petshop/blob/main/test/TestAdoption.sol) in test folder <br/>
 
 #### E- Testing The Smart Contract Using Javascript
 
 #### F- Running The Tests
+To run the created tests we simply execute this command:
+```
+truffle test
+```
+![Testing Output](/Images/Test.png "Testing Output")<br/>
+
+Perfect! everything is working perfectly :wink:. 
 
 #### G- User Interface
+To create the UI of our pet shop we need to add some code in [app.js](https://github.com/safa-abidi/smart-contracts-petshop/blob/main/src/js/app.js) file in src/js/ directory
 
 #### H- MetaMask
+Now it's time to install the MetaMask Plugin in our Browser.
+After that we create a Wallet.
+Then we click on the **Ethereum Mainnet** button:
+![Ethereum Mainnet](/Images/CustomRPC1.png "Ethereum Mainnet")<br/>
+
+We click on **Add Network**:
+![Add Network](/Images/CustomRPC2.png "Add Network")<br/>
+
+And now on **Add new network manually** (bottom of the screen):
+![Add New Network Manually](/Images/CustomRPC3.png "Add New Network Manually")<br/>
+
+We fill the fields as below (the New RPC URL field correspond to the RPC Server Url found in Ganache)
+![Filling The Fields](/Images/CustomRPC4.png "Filling The Fields")<br/>
+
+And finally we create a new account and that's by clicking on our account name and then on **Import Account**. We need to type the private key found in the first shown block in Ganache (by clicking on the key icon)
+![New Account](/Images/NewAccount.png "New Account")<br/>
+
+And it worked like a charm! :clap:.
+![MetaMask Connected](/Images/MetaMaskConnected.png "MetaMask Connected")<br/>
 
 #### I- Testing The Pet Shop
 

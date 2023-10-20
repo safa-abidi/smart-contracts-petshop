@@ -17,7 +17,7 @@ Let's start by introducing them.
 
 - MetaMask is a browser extension for Ethereum DApps and wallet functionality.
 
-[Tutorial Link](https://trufflesuite.com/guides/pet-shop/)
+This Project is made with this [Tutorial Link](https://trufflesuite.com/guides/pet-shop/).
 
 ## II-Implementation
 
@@ -37,12 +37,13 @@ Now we execute this command to get a basic project structure for our pet shop wi
 
 ### 2- Project Implementation
 
-Now let the serious part begin :). <br/>
+Now let the serious part begin :smiley:. <br/>
+
+#### A- Smart Contract
 We are going to create a smart contract which is automated, code-based agreements on a blockchain that execute predefined actions when conditions are met, eliminating the need for intermediaries. <br/>
 
-To create the smart contract we're going to use Solidity which is an object-oriented, high-level language for implementing smart contracts. 
-
-[Adoption Smart Contract Code](https://github.com/safa-abidi/smart-contracts-petshop/blob/main/contracts/Adoption.sol)
+To create the smart contract we're going to use Solidity which is an object-oriented, high-level language for implementing smart contracts. <br/>
+We create a file named [Adoption.sol](https://github.com/safa-abidi/smart-contracts-petshop/blob/main/contracts/Adoption.sol) in contracts directory
 
 Let's break the code into pieces. <br/>
 Starting by the first line inside the contract :
@@ -70,10 +71,45 @@ function getAdopters() public view returns (address[16] memory) {
 }
 ```
 
+#### B- Compilation
 Now we need to compile our Solidity so it can be executed by the Ethereum Virtual Machine (EVM). We simply execute this command:
 ```
 truffle compile
 ```
 We get this result:
-![Alt text](/Images/Compile.png "Optional title")
+![Compilation Output](/Images/Compile.png "Compilation Output")
+
+#### C- Migration
+Migrations are scripts that help deploy and manage smart contracts on a blockchain, facilitating the development and updating of decentralized applications. <br/>
+So we create a file named [2_deploy_contracts.js](https://github.com/safa-abidi/smart-contracts-petshop/blob/main/migrations/2_deploy_contracts.js) in migrations directory <br/>
+
+Before we can migrate our contract Adoption to the blockchain, we need to download **Ganache**
+![Ganache](/Images/Ganache.png "Ganache"). <br/>
+Our initial balance is ( which we can use in real life sadly :frowning_face: ) :
+![Initial Balance](/Images/InitialBalance.png "Initial Balance")<br/>
+
+Now we execute:
+```
+truffle migrate
+```
+![Migration Output Part 1](/Images/Migrate1.png "Migration Output Part 1")
+![Migration Output Part 2](/Images/Migrate1.png "Migration Output Part 2")
+
+#### D- Testing The Smart Contract Using Solidity
+
+#### E- Testing The Smart Contract Using Javascript
+
+#### F- Running The Tests
+
+#### G- User Interface
+
+#### H- MetaMask
+
+#### I- Testing The Pet Shop
+
+
+
+
+
+
 

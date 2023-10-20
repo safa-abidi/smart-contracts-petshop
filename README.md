@@ -85,7 +85,7 @@ So we create a file named [2_deploy_contracts.js](https://github.com/safa-abidi/
 
 Before we can migrate our contract Adoption to the blockchain, we need to download **Ganache**
 ![Ganache](/Images/Ganache.png "Ganache"). <br/>
-Our initial balance is ( which we can use in real life sadly :frowning_face: ) :
+Our initial balance is ( which we can't use in real life sadly :frowning_face: ) :
 ![Initial Balance](/Images/InitialBalance.png "Initial Balance")<br/>
 
 Now we execute:
@@ -93,7 +93,7 @@ Now we execute:
 truffle migrate
 ```
 ![Migration Output Part 1](/Images/Migrate1.png "Migration Output Part 1")
-![Migration Output Part 2](/Images/Migrate1.png "Migration Output Part 2")
+![Migration Output Part 2](/Images/Migrate2.png "Migration Output Part 2")
 
 #### D- Testing The Smart Contract Using Solidity
 

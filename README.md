@@ -30,15 +30,11 @@ npm install -g truffle
 Now we execute this command to get a basic project structure for our pet shop with the user interface :
 ```
  truffle unbox pet-shop 
- ```
+```
 
 ### 2- Project Implementation
 
 Now let the serious part begin.
 We are going to create a smart contract which is automated, code-based agreements on a blockchain that execute predefined actions when conditions are met, eliminating the need for intermediaries.
----
-**NOTE**
-
----
 
 

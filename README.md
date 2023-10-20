@@ -116,6 +116,7 @@ To create the UI of our Pet Shop we need to add some code in [app.js](https://gi
 Now it's time to install the MetaMask Plugin in our Browser.
 After that we create a Wallet.
 Then we click on the **Ethereum Mainnet** button: <br/>
+
 ![Ethereum Mainnet](/Images/CustomRPC1.png "Ethereum Mainnet")<br/>
 
 We click on **Add Network**: <br/>
@@ -150,6 +151,7 @@ We choose a cute pet to adopt and click on the adopt button. This confirmation p
 
 How could we reject such a cute offer? So we obviously clicked on confirm. <br/>
 We can now see that the transaction is pending. <br/>
+
 ![Transaction Pending](/Images/AdoptPending.png "Transaction Pending")<br/>
 
 After waiting a bit the transaction was confirmed. (Of course we couldn't resist the cute pets and adopted another one :wink:) <br/>

@@ -188,7 +188,7 @@ We can now see that the transaction is pending. <br/>
 ![Transaction Pending](/Images/AdoptPending.png "Transaction Pending")<br/>
 
 
-After waiting a bit the transaction was confirmed. (Of course we couldn't resist the cute pets and adopted another one :wink:) <br/>
+After waiting a bit the transaction was confirmed and we can see that we have a lower amount of ether. (Of course we couldn't resist the cute pets and adopted another one :wink:) <br/>
 
 ![Transaction Confirmed](/Images/AdoptConfirmed2.png "Transaction Confirmed")<br/>
 

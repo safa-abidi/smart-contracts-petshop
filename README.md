@@ -76,22 +76,28 @@ Now we need to compile our Solidity so it can be executed by the Ethereum Virtua
 ```
 truffle compile
 ```
-We get this result: <br/>
+We get this result:
+
 ![Compilation Output](/Images/Compile.png "Compilation Output")
 
 #### C- Migration
 Migrations are scripts that help deploy and manage smart contracts on a blockchain, facilitating the development and updating of decentralized applications. <br/>
 So we create a file named [2_deploy_contracts.js](https://github.com/safa-abidi/smart-contracts-petshop/blob/main/migrations/2_deploy_contracts.js) in migrations directory <br/>
 
-Before we can migrate our contract Adoption to the blockchain, we need to download **Ganache** <br/>
+Before we can migrate our contract Adoption to the blockchain, we need to download **Ganache**
+
 ![Ganache](/Images/Ganache.png "Ganache"). <br/>
-Our initial balance is ( which we can't use in real life sadly :frowning_face: ) : <br/>
+
+
+Our initial balance is ( which we can't use in real life sadly :frowning_face: ) :
+
 ![Initial Balance](/Images/InitialBalance.png "Initial Balance")<br/>
 
 Now we execute:
 ```
 truffle migrate
 ```
+
 ![Migration Output Part 1](/Images/Migrate1.png "Migration Output Part 1")
 ![Migration Output Part 2](/Images/Migrate2.png "Migration Output Part 2")
 
@@ -105,6 +111,7 @@ To run the created tests we simply execute this command:
 ```
 truffle test
 ```
+
 ![Testing Output](/Images/Test.png "Testing Output")<br/>
 
 Perfect! everything is working perfectly :wink:. 
@@ -115,23 +122,33 @@ To create the UI of our Pet Shop we need to add some code in [app.js](https://gi
 #### H- MetaMask
 Now it's time to install the MetaMask Plugin in our Browser.
 After that we create a Wallet.
-Then we click on the **Ethereum Mainnet** button: <br/>
+Then we click on the **Ethereum Mainnet** button:
 
 ![Ethereum Mainnet](/Images/CustomRPC1.png "Ethereum Mainnet")<br/>
 
-We click on **Add Network**: <br/>
+
+We click on **Add Network**:
+
 ![Add Network](/Images/CustomRPC2.png "Add Network")<br/>
 
-And now on **Add new network manually** (bottom of the screen): <br/>
+
+And now on **Add new network manually** (bottom of the screen):
+
 ![Add New Network Manually](/Images/CustomRPC3.png "Add New Network Manually")<br/>
 
+
 We fill the fields as below (the New RPC URL field correspond to the RPC Server Url found in Ganache) <br/>
+
 ![Filling The Fields](/Images/CustomRPC4.png "Filling The Fields")<br/>
 
+
 And finally we create a new account and that's by clicking on our account name and then on **Import Account**. We need to type the private key found in the first shown block in Ganache (by clicking on the key icon) <br/>
+
 ![New Account](/Images/NewAccount.png "New Account")<br/>
 
+
 And it worked like a charm! :clap:. <br/>
+
 ![MetaMask Connected](/Images/MetaMaskConnected.png "MetaMask Connected")<br/>
 
 #### I- Testing The Pet Shop
@@ -143,18 +160,25 @@ npm run dev
 We get then a MetaMask pop-up appears to request our approval to allow the Pet Shop to connect to our MetaMask wallet.<br/>
 
 This the UI we get then: <br/>
+
 ![Pet Shop](/Images/website.png "Pet Shop")<br/>
+
 Lovely isn't it ? :wink:. <br/>
 
+
 We choose a cute pet to adopt and click on the adopt button. This confirmation popup from MetaMask will appear: <br/>
+
 ![Transaction Confirmation](/Images/AdoptConfirm.png "Transaction Confirmation")<br/>
+
 
 How could we reject such a cute offer? So we obviously clicked on confirm. <br/>
 We can now see that the transaction is pending. <br/>
 
 ![Transaction Pending](/Images/AdoptPending.png "Transaction Pending")<br/>
 
+
 After waiting a bit the transaction was confirmed. (Of course we couldn't resist the cute pets and adopted another one :wink:) <br/>
+
 ![Transaction Confirmed](/Images/AdoptConfirmed2.png "Transaction Confirmed")<br/>
 
 

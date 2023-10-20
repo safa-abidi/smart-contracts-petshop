@@ -110,6 +110,45 @@ truffle migrate
 #### D- Testing The Smart Contract Using Solidity
 So we create a file named [TestAdoption.sol](https://github.com/safa-abidi/smart-contracts-petshop/blob/main/test/TestAdoption.sol) in test folder <br/>
 
+Inside the Test we can find those 3 variables:
+```
+Adoption adoption = Adoption(DeployedAddresses.Adoption());
+uint expectedPetId = 8;
+address expectedAdopter = address(this);
+```
+
+The adoption variable is the contract to be tested.<br/>
+The expectedPetId represents the Id of the pet that we're going to use for the test.<br/>
+exptectedAdopter is the expected adopter for the pet.
+
+We also have this function in which we test the adopt() function:
+```
+function testUserCanAdoptPet() public {
+  uint returnedId = adoption.adopt(expectedPetId);
+
+  Assert.equal(returnedId, expectedPetId, "Adoption of the expected pet should match what is returned.");
+}
+```
+
+We added this code to test the retrieval of the owner of a pet:
+```
+function testGetAdopterAddressByPetId() public {
+  address adopter = adoption.adopters(expectedPetId);
+
+  Assert.equal(adopter, expectedAdopter, "Owner of the expected pet should be this contract");
+}
+```
+
+And finally we have this function that tests the retrieval of the entire list of the pet owners:
+```
+function testGetAdopterAddressByPetIdInArray() public {
+  // Store adopters in memory rather than contract's storage
+  address[16] memory adopters = adoption.getAdopters();
+
+  Assert.equal(adopters[expectedPetId], expectedAdopter, "Owner of the expected pet should be this contract");
+}
+```
+
 
 #### E- Testing The Smart Contract Using Javascript
 

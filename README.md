@@ -5,6 +5,7 @@ Project made by:
 - [Ines Achour](https://github.com/inesachour)
 - [Amal Sammari](https://github.com/Amal1999)
 
+
 ## I-Introduction
 In this Project we are going to use Truffle, Ganache and Metamask.
 Let's start by introducing them.
@@ -19,8 +20,8 @@ Let's start by introducing them.
 
 This Project is made with this [Tutorial Link](https://trufflesuite.com/guides/pet-shop/).
 
-## II-Implementation
 
+## II-Implementation
 ### 1-Set Up
 
 As mentioned in the tutorial, we started by making sure that we already have Node.js, npm and git in our system.
@@ -35,9 +36,11 @@ Now we execute this command to get a basic project structure for our Pet Shop wi
  truffle unbox pet-shop 
 ```
 
+
 ### 2- Project Implementation
 
 Now let the serious part begin :smiley:. <br/>
+
 
 #### A- Smart Contract
 We are going to create a smart contract which is automated, code-based agreements on a blockchain that execute predefined actions when conditions are met, eliminating the need for intermediaries. <br/>
@@ -71,6 +74,7 @@ function getAdopters() public view returns (address[16] memory) {
 }
 ```
 
+
 #### B- Compilation
 Now we need to compile our Solidity so it can be executed by the Ethereum Virtual Machine (EVM). We simply execute this command:
 ```
@@ -79,6 +83,7 @@ truffle compile
 We get this result:
 
 ![Compilation Output](/Images/Compile.png "Compilation Output")
+
 
 #### C- Migration
 Migrations are scripts that help deploy and manage smart contracts on a blockchain, facilitating the development and updating of decentralized applications. <br/>
@@ -101,10 +106,13 @@ truffle migrate
 ![Migration Output Part 1](/Images/Migrate1.png "Migration Output Part 1")
 ![Migration Output Part 2](/Images/Migrate2.png "Migration Output Part 2")
 
+
 #### D- Testing The Smart Contract Using Solidity
 So we create a file named [TestAdoption.sol](https://github.com/safa-abidi/smart-contracts-petshop/blob/main/test/TestAdoption.sol) in test folder <br/>
 
+
 #### E- Testing The Smart Contract Using Javascript
+
 
 #### F- Running The Tests
 To run the created tests we simply execute this command:
@@ -116,8 +124,10 @@ truffle test
 
 Perfect! everything is working perfectly :wink:. 
 
+
 #### G- User Interface
 To create the UI of our Pet Shop we need to add some code in [app.js](https://github.com/safa-abidi/smart-contracts-petshop/blob/main/src/js/app.js) file in src/js/ directory
+
 
 #### H- MetaMask
 Now it's time to install the MetaMask Plugin in our Browser.
@@ -151,6 +161,7 @@ And it worked like a charm! :clap:. <br/>
 
 ![MetaMask Connected](/Images/MetaMaskConnected.png "MetaMask Connected")<br/>
 
+
 #### I- Testing The Pet Shop
 Now comes the exciting part where we get to choose our lovely pet :heart_eyes:.
 But before that we need to start the local web server by executing:
@@ -180,8 +191,6 @@ We can now see that the transaction is pending. <br/>
 After waiting a bit the transaction was confirmed. (Of course we couldn't resist the cute pets and adopted another one :wink:) <br/>
 
 ![Transaction Confirmed](/Images/AdoptConfirmed2.png "Transaction Confirmed")<br/>
-
-
 
 
 

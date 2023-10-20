@@ -23,10 +23,14 @@ https://trufflesuite.com/guides/pet-shop/
 As mentioned in the tutorial, we started by making sure that we already have Node.js, npm and git in our system.
 
 After that we install Truffle using npm :
-> npm install -g truffle
+``` 
+npm install -g truffle 
+```
 
 Now we execute this command to get a basic project structure for our pet shop with the user interface :
-> truffle unbox pet-shop
+```
+ truffle unbox pet-shop 
+ ```
 
 ### 2- Project Implementation
 

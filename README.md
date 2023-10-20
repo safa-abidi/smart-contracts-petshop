@@ -34,7 +34,7 @@ Now we execute this command to get a basic project structure for our pet shop wi
 
 ### 2- Project Implementation
 
-Now let the serious part begin.
+Now let the serious part begin. <br/>
 We are going to create a smart contract which is automated, code-based agreements on a blockchain that execute predefined actions when conditions are met, eliminating the need for intermediaries.
 
 

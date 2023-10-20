@@ -77,23 +77,23 @@ Now we need to compile our Solidity so it can be executed by the Ethereum Virtua
 truffle compile
 ```
 We get this result:
-![Compilation Output](/images/Compile.png "Compilation Output")
+![Compilation Output](/Images/Compile.png "Compilation Output")
 
 #### C- Migration
 Migrations are scripts that help deploy and manage smart contracts on a blockchain, facilitating the development and updating of decentralized applications. <br/>
 So we create a file named [2_deploy_contracts.js](https://github.com/safa-abidi/smart-contracts-petshop/blob/main/migrations/2_deploy_contracts.js) in migrations directory <br/>
 
 Before we can migrate our contract Adoption to the blockchain, we need to download **Ganache**
-![Ganache](/images/Ganache.png "Ganache"). <br/>
+![Ganache](/Images/Ganache.png "Ganache"). <br/>
 Our initial balance is ( which we can't use in real life sadly :frowning_face: ) :
-![Initial Balance](/images/InitialBalance.png "Initial Balance")<br/>
+![Initial Balance](/Images/InitialBalance.png "Initial Balance")<br/>
 
 Now we execute:
 ```
 truffle migrate
 ```
-![Migration Output Part 1](/images/Migrate1.png "Migration Output Part 1")
-![Migration Output Part 2](/images/Migrate2.png "Migration Output Part 2")
+![Migration Output Part 1](/Images/Migrate1.png "Migration Output Part 1")
+![Migration Output Part 2](/Images/Migrate2.png "Migration Output Part 2")
 
 #### D- Testing The Smart Contract Using Solidity
 So we create a file named [TestAdoption.sol](https://github.com/safa-abidi/smart-contracts-petshop/blob/main/test/TestAdoption.sol) in test folder <br/>
@@ -105,7 +105,7 @@ To run the created tests we simply execute this command:
 ```
 truffle test
 ```
-![Testing Output](/images/Test.png "Testing Output")<br/>
+![Testing Output](/Images/Test.png "Testing Output")<br/>
 
 Perfect! everything is working perfectly :wink:. 
 
@@ -116,22 +116,22 @@ To create the UI of our Pet Shop we need to add some code in [app.js](https://gi
 Now it's time to install the MetaMask Plugin in our Browser.
 After that we create a Wallet.
 Then we click on the **Ethereum Mainnet** button:
-![Ethereum Mainnet](/images/CustomRPC1.png "Ethereum Mainnet")<br/>
+![Ethereum Mainnet](/Images/CustomRPC1.png "Ethereum Mainnet")<br/>
 
 We click on **Add Network**:
-![Add Network](/images/CustomRPC2.png "Add Network")<br/>
+![Add Network](/Images/CustomRPC2.png "Add Network")<br/>
 
 And now on **Add new network manually** (bottom of the screen):
-![Add New Network Manually](/images/CustomRPC3.png "Add New Network Manually")<br/>
+![Add New Network Manually](/Images/CustomRPC3.png "Add New Network Manually")<br/>
 
 We fill the fields as below (the New RPC URL field correspond to the RPC Server Url found in Ganache)
-![Filling The Fields](/images/CustomRPC4.png "Filling The Fields")<br/>
+![Filling The Fields](/Images/CustomRPC4.png "Filling The Fields")<br/>
 
 And finally we create a new account and that's by clicking on our account name and then on **Import Account**. We need to type the private key found in the first shown block in Ganache (by clicking on the key icon)
-![New Account](/images/NewAccount.png "New Account")<br/>
+![New Account](/Images/NewAccount.png "New Account")<br/>
 
 And it worked like a charm! :clap:.
-![MetaMask Connected](/images/MetaMaskConnected.png "MetaMask Connected")<br/>
+![MetaMask Connected](/Images/MetaMaskConnected.png "MetaMask Connected")<br/>
 
 #### I- Testing The Pet Shop
 Now comes the exciting part where we get to choose our lovely pet :heart_eyes:.
@@ -142,18 +142,19 @@ npm run dev
 We get then a MetaMask pop-up appears to request our approval to allow the Pet Shop to connect to our MetaMask wallet.<br/>
 
 This the UI we get then:
-![Pet Shop](/images/website.png "Pet Shop")<br/>
+![Pet Shop](/Images/website.png "Pet Shop")<br/>
 Lovely isn't it ? :wink:. <br/>
 
 We choose a cute pet to adopt and click on the adopt button. This confirmation popup from MetaMask will appear:
-![MetaMask Connected](/images/AdoptConfirm.png "MetaMask Connected")<br/>
+![MetaMask Connected](/Images/AdoptConfirm.png "MetaMask Connected")<br/>
 
 How could we reject such a cute offer? So we obviously clicked on confirm. <br/>
 We can now see that the transaction is pending.
-![MetaMask Connected](/images/AdoptPending.png "MetaMask Connected")<br/>
+![MetaMask Connected](/Images/AdoptPending.png "MetaMask Connected")<br/>
 
 After waiting a bit the transaction was confirmed. (Of course we couldn't resist the cute pets and adopted another one :wink:)
-![MetaMask Connected](/images/AdoptConfirmed2.png "MetaMask Connected")<br/>
+![MetaMask Connected](/Images/AdoptConfirmed2.png "MetaMask Connected")<br/>
+
 
 
 

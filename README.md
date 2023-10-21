@@ -8,9 +8,9 @@ Project made by:
 
 [I- Introduction](https://github.com/safa-abidi/smart-contracts-petshop#i-introduction)<br/>
 [II- Project Implementation](https://github.com/safa-abidi/smart-contracts-petshop#ii-implementation)<br/>
-[1- Set Up](https://github.com/safa-abidi/smart-contracts-petshop#1-set-up)<br/>
-[2- Project Implementation](https://github.com/safa-abidi/smart-contracts-petshop#2--project-implementation)<br/>
-[A- Smart Contract](https://github.com/safa-abidi/smart-contracts-petshop#a--smart-contract)<br/>
+&nbsp;[1- Set Up](https://github.com/safa-abidi/smart-contracts-petshop#1-set-up)<br/>
+&nbsp;[2- Project Implementation](https://github.com/safa-abidi/smart-contracts-petshop#2--project-implementation)<br/>
+&ensp;[A- Smart Contract](https://github.com/safa-abidi/smart-contracts-petshop#a--smart-contract)<br/>
 [B- Compilation](https://github.com/safa-abidi/smart-contracts-petshop#b--compilation)<br/>
 [C- Migration](https://github.com/safa-abidi/smart-contracts-petshop#c--migration)<br/>
 [D- Testing The Smart Contract Using Solidity](https://github.com/safa-abidi/smart-contracts-petshop#d--testing-the-smart-contract-using-solidity)<br/>

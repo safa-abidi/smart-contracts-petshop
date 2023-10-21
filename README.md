@@ -6,6 +6,11 @@ Project made by:
 - [Amal Sammari](https://github.com/Amal1999)
 
 
+[I- Introduction](https://github.com/safa-abidi/smart-contracts-petshop#i-introduction)
+[II- Project Implementation](https://github.com/safa-abidi/smart-contracts-petshop#ii-implementation)
+[1- Set Up](https://github.com/safa-abidi/smart-contracts-petshop#1-set-up)
+[2- Project Implementation](https://github.com/safa-abidi/smart-contracts-petshop#2--project-implementation)
+
 ## I-Introduction
 In this Project we are going to use Truffle, Ganache and Metamask.
 Let's start by introducing them.
@@ -21,8 +26,8 @@ Let's start by introducing them.
 This Project is made with this [Tutorial Link](https://trufflesuite.com/guides/pet-shop/).
 
 
-## II-Implementation
-### 1-Set Up
+## II- Implementation
+### 1- Set Up
 
 As mentioned in the tutorial, we started by making sure that we already have Node.js, npm and git in our system.
 
@@ -235,6 +240,7 @@ After waiting a bit the transaction was confirmed and we can see that we have a 
 
 
 We can also see that in Ganache the state of the blockchain has changed:
+
 ![Ganache](/Images/Ganache3.png "Ganache")<br/>
 
 

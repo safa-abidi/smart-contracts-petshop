@@ -89,8 +89,9 @@ We get this result:
 Migrations are scripts that help deploy and manage smart contracts on a blockchain, facilitating the development and updating of decentralized applications. <br/>
 So we create a file named [2_deploy_contracts.js](https://github.com/safa-abidi/smart-contracts-petshop/blob/main/migrations/2_deploy_contracts.js) in migrations directory <br/>
 
-Before we can migrate our contract Adoption to the blockchain, we need to download **Ganache**
+Before we can migrate our contract Adoption to the blockchain, we need to download **Ganache**.
 
+Those are our initial blocks in Ganache:
 ![Ganache](/Images/Ganache.png "Ganache") <br/>
 
 
@@ -232,6 +233,9 @@ After waiting a bit the transaction was confirmed and we can see that we have a 
 
 ![Transaction Confirmed](/Images/AdoptConfirmed2.png "Transaction Confirmed")<br/>
 
+
+We can also see that in Ganache the state of the blockchain has changed:
+![Ganache](/Images/Ganache3.png "Ganache")<br/>
 
 
 

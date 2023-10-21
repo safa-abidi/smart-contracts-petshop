@@ -105,6 +105,7 @@ truffle migrate
 
 ![Migration Output Part 1](/Images/Migrate1.png "Migration Output Part 1")
 ![Migration Output Part 2](/Images/Migrate2.png "Migration Output Part 2")
+![Migration Output Part 3](/Images/Migrate3.png "Migration Output Part 3")
 
 
 #### D- Testing The Smart Contract Using Solidity

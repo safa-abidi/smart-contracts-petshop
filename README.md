@@ -7,7 +7,7 @@ Project made by:
 <br/>
 
 
-Here is the link to the video of the demo: [Link](https://drive.google.com/file/d/175Mqhzp7AHVTbfF436uQ0pNZSvyB8d_f/view?usp=share_link) 
+Here is the link to the video of the demo: [Link](https://drive.google.com/file/d/175Mqhzp7AHVTbfF436uQ0pNZSvyB8d_f/view?usp=share_link) <br/>
 
 
 The project contains these sections:<br/>

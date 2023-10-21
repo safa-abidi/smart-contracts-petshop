@@ -151,10 +151,7 @@ function testGetAdopterAddressByPetIdInArray() public {
 ```
 
 
-#### E- Testing The Smart Contract Using Javascript
-
-
-#### F- Running The Tests
+#### E- Running The Tests
 To run the created tests we simply execute this command:
 ```
 truffle test
@@ -165,11 +162,11 @@ truffle test
 Perfect! everything is working perfectly :wink:. 
 
 
-#### G- User Interface
+#### F- User Interface
 To create the UI of our Pet Shop we need to add some code in [app.js](https://github.com/safa-abidi/smart-contracts-petshop/blob/main/src/js/app.js) file in src/js/ directory
 
 
-#### H- MetaMask
+#### G- MetaMask
 Now it's time to install the MetaMask Plugin in our Browser.
 After that we create a Wallet.
 Then we click on the **Ethereum Mainnet** button:
@@ -202,7 +199,7 @@ And it worked like a charm! :clap:. <br/>
 ![MetaMask Connected](/Images/MetaMaskConnected.png "MetaMask Connected")<br/>
 
 
-#### I- Testing The Pet Shop
+#### H- Testing The Pet Shop
 Now comes the exciting part where we get to choose our lovely pet :heart_eyes:.
 But before that we need to start the local web server by executing:
 ```

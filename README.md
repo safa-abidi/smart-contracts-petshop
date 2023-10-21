@@ -11,13 +11,13 @@ Project made by:
 &nbsp;[1- Set Up](https://github.com/safa-abidi/smart-contracts-petshop#1-set-up)<br/>
 &nbsp;[2- Project Implementation](https://github.com/safa-abidi/smart-contracts-petshop#2--project-implementation)<br/>
 &ensp;[A- Smart Contract](https://github.com/safa-abidi/smart-contracts-petshop#a--smart-contract)<br/>
-[B- Compilation](https://github.com/safa-abidi/smart-contracts-petshop#b--compilation)<br/>
-[C- Migration](https://github.com/safa-abidi/smart-contracts-petshop#c--migration)<br/>
-[D- Testing The Smart Contract Using Solidity](https://github.com/safa-abidi/smart-contracts-petshop#d--testing-the-smart-contract-using-solidity)<br/>
-[E- Running The Tests](https://github.com/safa-abidi/smart-contracts-petshop#e--running-the-tests)<br/>
-[F- User Interface](https://github.com/safa-abidi/smart-contracts-petshop#f--user-interface)<br/>
-[G- MetaMask](https://github.com/safa-abidi/smart-contracts-petshop#g--metamask)<br/>
-[H- Testing The Pet Shop](https://github.com/safa-abidi/smart-contracts-petshop#h--testing-the-pet-shop)<br/>
+&ensp;[B- Compilation](https://github.com/safa-abidi/smart-contracts-petshop#b--compilation)<br/>
+&ensp;[C- Migration](https://github.com/safa-abidi/smart-contracts-petshop#c--migration)<br/>
+&ensp;[D- Testing The Smart Contract Using Solidity](https://github.com/safa-abidi/smart-contracts-petshop#d--testing-the-smart-contract-using-solidity)<br/>
+&ensp;[E- Running The Tests](https://github.com/safa-abidi/smart-contracts-petshop#e--running-the-tests)<br/>
+&ensp;[F- User Interface](https://github.com/safa-abidi/smart-contracts-petshop#f--user-interface)<br/>
+&ensp;[G- MetaMask](https://github.com/safa-abidi/smart-contracts-petshop#g--metamask)<br/>
+&ensp;[H- Testing The Pet Shop](https://github.com/safa-abidi/smart-contracts-petshop#h--testing-the-pet-shop)<br/>
 
 ## I-Introduction
 In this Project we are going to use Truffle, Ganache and Metamask.

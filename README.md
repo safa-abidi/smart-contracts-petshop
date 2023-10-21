@@ -107,6 +107,9 @@ truffle migrate
 ![Migration Output Part 2](/Images/Migrate2.png "Migration Output Part 2")
 ![Migration Output Part 3](/Images/Migrate3.png "Migration Output Part 3")
 
+After the migration is done, we can see that the state of the blockchain has changed. We have now lower than 100 ether :frowning_face: and more blocks:
+
+![Ganache](/Images/Ganache2.png "Ganache")
 
 #### D- Testing The Smart Contract Using Solidity
 So we create a file named [TestAdoption.sol](https://github.com/safa-abidi/smart-contracts-petshop/blob/main/test/TestAdoption.sol) in test folder <br/>

@@ -6,8 +6,7 @@ Project made by:
 - [Amal Sammari](https://github.com/Amal1999)
 
 
-The project contains these sections:
-
+The project contains these sections:<br/>
 [I- Introduction](https://github.com/safa-abidi/smart-contracts-petshop#i-introduction)<br/>
 [II- Project Implementation](https://github.com/safa-abidi/smart-contracts-petshop#ii-implementation)<br/>
 &ensp;[1- Set Up](https://github.com/safa-abidi/smart-contracts-petshop#1-set-up)<br/>

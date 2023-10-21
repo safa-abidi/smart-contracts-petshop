@@ -5,7 +5,6 @@ Project made by:
 - [Ines Achour](https://github.com/inesachour)
 - [Amal Sammari](https://github.com/Amal1999)
 <br/>
-<br/>
 
 The project contains these sections:<br/>
 [I- Introduction](https://github.com/safa-abidi/smart-contracts-petshop#i-introduction)<br/>
@@ -20,6 +19,7 @@ The project contains these sections:<br/>
 &ensp;&ensp;[F- User Interface](https://github.com/safa-abidi/smart-contracts-petshop#f--user-interface)<br/>
 &ensp;&ensp;[G- MetaMask](https://github.com/safa-abidi/smart-contracts-petshop#g--metamask)<br/>
 &ensp;&ensp;[H- Testing The Pet Shop](https://github.com/safa-abidi/smart-contracts-petshop#h--testing-the-pet-shop)<br/>
+
 
 ## I-Introduction
 In this Project we are going to use Truffle, Ganache and Metamask.
